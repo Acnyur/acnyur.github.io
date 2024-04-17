@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <link rel="stylesheet" href="css/resources.css">
+    <meta charset="UTF-8">
+    <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="EXPIRES" CONTENT="0">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <title>綠色魔豆</title>
+</head>
+<body>
+    <article class="glassBlockDescription">
+        <p class="content"><span class="contentHL">使用方法: 輸入對應數值後按下「計算」鈕</span><hr></p>
+        <div class="caculator">
+            <label class="labelBox" for="PPFD1">PPFD(μmol/s.m²)</label>
+            <input class="inputBox" id="PPFD1" type="text" min="0" value="0" autofocus>
+            <label class="labelBox" for="hour1">每日開燈時間(小時)</label>
+            <input class="inputBox" id="hour1" type="text" min="0" value="0">
+            <button class="content" id="btn1">計算</button>
+            <div class="resultBox">
+                <label class="labelBox">DLI</label>
+                <label class="resultLabel" id="DLI1">0 (mol/(m²·day))</label>
+            </div>
+        </div>
+        <div class="caculator">
+            <label class="labelBox" for="DLI2">DLI(μmol·m-2·d-1)</label>
+            <input class="inputBox" id="DLI2" type="text" min="0" value="0">
+            <label class="labelBox" for="hour2">每日開燈時間(小時)</label>
+            <input class="inputBox" id="hour2" type="text" min="0" value="0">
+            <button class="content" id="btn2">計算</button>
+            <div class="resultBox">
+                <label class="labelBox">PPFD</label>
+                <label class="resultLabel" id="PPFD2">0 (μmol/(m²·sec))</label>
+            </div>
+        </div>
+    </article>
+</body>
+<script src="javascripts/caculator.js"></script>
+</html>

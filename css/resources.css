@@ -1,0 +1,142 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../img/background.jpg");
+    margin: 5px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.contentTitle1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(134, 35, 255);
+}
+
+.contentTitle2{
+    font-size: 20px;
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+.content{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.contentHL{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 34, 255);
+}
+
+#formula1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(231, 2, 2);
+}
+
+.glassBlockDescription{
+    margin: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: solid 4px rgb(191, 234, 229);
+    border-right: solid 4px rgb(191, 234, 229);
+    border-top: solid 2px rgb(191, 234, 229);
+    border-left: solid 2px rgb(191, 234, 229);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 0px 1px rgba(152, 152, 152, 0.795);
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid black;
+    width: 10%;
+}
+
+.caculator{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#boxTitle{
+    margin-top: 1em;
+}
+
+#img1_0{
+    border-radius: 4px;
+    width: 30%;
+}
+#img2_0{
+    border-radius: 4px;
+    width: 10%;
+}
+#img2_1{
+    border-radius: 4px;
+    width: 20%;
+}
+
+#th1{
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(245, 248, 80);
+}
+#th2{
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(162, 254, 162);
+}
+#th3{
+    border: 1px solid black;
+    width: 10%;
+    background-color: rgb(216, 216, 216);
+}
+
+.labelBox{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputBox{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 5%;
+    border-radius: 5px;
+    border: inset 2px rgb(112, 112, 112);
+}
+.resultBox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.resultLabel{
+    color: rgb(231, 2, 2);
+    background-color: rgb(226, 226, 226);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: inset 2px rgb(112, 112, 112);
+}
