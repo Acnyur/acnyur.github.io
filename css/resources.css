@@ -25,10 +25,22 @@ body{
     font-size: 20px;
 }
 
-.contentHL{
+.contentHLBlue{
     font-size: 20px;
     font-weight: bold;
     color: rgb(0, 34, 255);
+}
+
+.contentHLRed{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(231, 2, 2);
+}
+
+.formula{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(231, 2, 2);
 }
 
 #formula1{
@@ -51,11 +63,15 @@ body{
 
 .box{
     display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
     gap: 20px;
     align-items: center;
+    justify-content: left;
 }
 
 table{
+    font-size: 20px;
     border-collapse: collapse;
     width: 100%;
 }
@@ -88,6 +104,10 @@ td{
     border-radius: 4px;
     width: 20%;
 }
+#img3{
+    border-radius: 4px;
+    width: 30%;
+}
 
 #th1{
     border: 1px solid black;
@@ -104,7 +124,16 @@ td{
     width: 10%;
     background-color: rgb(216, 216, 216);
 }
-
+#th4{
+    border: 1px solid black;
+    width: 10%;
+    background-color: rgb(133, 206, 255);
+}
+#th5{
+    border: 1px solid black;
+    width: 50%;
+    background-color: rgb(133, 206, 255);
+}
 .labelBox{
     font-size: 20px;
     font-weight: bold;
