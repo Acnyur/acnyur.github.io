@@ -12,12 +12,12 @@ function customRound(value, num) {
 }
 
 btn1.addEventListener("click", function(){
-    if (ppfd1.value!=0 | hour1.value!=0){var dli = customRound(ppfd1.value * hour1.value / 100000, 4);}
+    if (ppfd1.value!=0 | hour1.value!=0){var dli = customRound(ppfd1.value * hour1.value * 3600 / 1000000, 4);}
     else{var dli = 0;}
     dli1.textContent = String(dli) + " (mol/(m²·day))";
 })
 btn2.addEventListener("click", function(){
-    if (dli2.value!=0 | hour2.value!=0){var ppfd = customRound(dli2.value * 100000 / hour2.value, 4);}
+    if (dli2.value!=0 | hour2.value!=0){var ppfd = customRound(dli2.value * 1000000 / hour2.value / 3600, 4);}
     else{var ppfd = 0;}
     ppfd2.textContent = String(ppfd) + " (μmol/(m²·sec))";
 })
