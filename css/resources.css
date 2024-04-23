@@ -3,8 +3,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url("../img/background.jpg");
-    margin: 5px;
     padding: 0px;
+    margin: 5px;
     font-family: Arial, sans-serif;
 }
 
@@ -236,4 +236,58 @@ td{
 }
 .area3{
     grid-area: area3;
+}
+
+.nav-bar {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	display: grid;
+	grid-template-columns: 50px 120px repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    margin-bottom: 5px;
+	background-color: rgb(0, 0, 0);
+	grid-template-areas:
+		"icon icon-text a1 a2 a3";
+	.icon {
+		grid-area: icon;
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: gray solid 3px;
+		margin: auto;
+		background-image: url(../img/icon.webp);
+        background-size: cover;
+	}
+	.icon-text {
+		grid-area: icon-text;
+		color: rgb(0, 170, 60);
+        font-size: 17px;
+		font-weight: bold;
+		text-align: left;
+        padding-left: 5px;
+	}
+	.a1 {
+		grid-area: a1;
+	}
+	.a2 {
+		grid-area: a2;
+	}
+	.a3 {
+		grid-area: a3;
+	}
+	.item {
+		font-size: 1.5rem;
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+		text-align: center;
+	}
+	.item.hover {
+		color: rgb(44, 195, 255);
+	}
 }
