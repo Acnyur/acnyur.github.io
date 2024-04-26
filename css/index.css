@@ -3,19 +3,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url("../img/background.jpg");
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
-header{
-    margin: 5px;
-    padding: 0px;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background: rgb(241, 250, 135);
-}
+
 footer{
     margin: 0px;
     padding: 10px;
@@ -25,20 +18,15 @@ footer{
 
 .gridContainer {
     display: grid;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin:10px;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "notice notice notice"
-        "announce announce announce"
-        "update update update"
-        "area1 area2 area3"
-        "area4 area5 area6"
-        "area7 area8 area9"
-        "YTVideo YTVideo YTVideo";
+        "notice"
+        "announce"
+        "update"
+        "YTVideo";
 }
 .notice{
     grid-area: notice;
@@ -58,15 +46,6 @@ footer{
     padding-left: 10px;
     color: rgb(199, 25, 25);
 }
-.area1{grid-area: area1;}
-.area2{grid-area: area2;}
-.area3{grid-area: area3;}
-.area4{grid-area: area4;}
-.area5{grid-area: area5;}
-.area6{grid-area: area6;}
-.area7{grid-area: area7;}
-.area8{grid-area: area8;}
-.area9{grid-area: area9;}
 .YTVideo{
     grid-area: YTVideo;
     display: block;
@@ -79,40 +58,3 @@ footer{
     font-weight: bold;
     font-size: 20px;
 }
-
-.h1Block{
-    margin: 0px;
-    padding: 0px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-
-.item{
-    margin: 0px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: left;
-    color: rgb(0, 0, 0);
-}
-
-.glassBlock{
-    border-radius: 5px;
-    border-bottom: solid 4px rgb(191, 234, 229);
-    border-right: solid 4px rgb(191, 234, 229);
-    border-top: solid 2px rgb(191, 234, 229);
-    border-left: solid 2px rgb(191, 234, 229);
-    background-color: rgba(216, 250, 255, 0.703);
-    box-shadow: 2px 2px 0px 1px rgba(152, 152, 152, 0.795);
-}
-
-#a1{background: rgb(0, 167, 33);}
-#a2{background: rgb(0, 102, 255);}
-#a3{background: rgb(0, 21, 255);}
-#a4{background: rgb(112, 1, 86);}
-#a5{background: rgb(177, 91, 4);}
-#a6{background: rgb(252, 154, 7);}
-#a7{background: rgb(0, 88, 183);}
-#a8{background: rgb(128, 0, 0);}
-#a9{background-color: rgb(25, 114, 0);}
