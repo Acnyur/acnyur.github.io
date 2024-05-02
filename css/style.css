@@ -1,0 +1,285 @@
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../img/background.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+@media (max-width:768px){
+    body{
+        background-color: aqua;
+        background-image: none;
+    }
+}
+
+footer{
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.703);
+}
+
+.contentTitle1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(134, 35, 255);
+}
+
+.contentTitle2{
+    font-size: 20px;
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+.content{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.contentHLBlue{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 34, 255);
+}
+
+.contentHLRed{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(231, 2, 2);
+}
+
+.formula{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(231, 2, 2);
+}
+
+#formula1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(231, 2, 2);
+}
+
+.box{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 20px;
+    align-items: center;
+    justify-content: left;
+}
+
+table{
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid black;
+    width: 10%;
+}
+
+.caculator{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#boxTitle{
+    margin-top: 1em;
+}
+
+#img1_0{
+    border-radius: 4px;
+    width: 30%;
+}
+#img2_0{
+    border-radius: 4px;
+    width: 10%;
+}
+#img2_1{
+    border-radius: 4px;
+    width: 20%;
+}
+#img3{
+    border-radius: 4px;
+    width: 30%;
+}
+#img4{
+    border-radius: 4px;
+    width: 50%;
+}
+
+#img5{
+    border-radius: 4px;
+    height: 200px;
+}
+
+#th1{
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(245, 248, 80);
+}
+#th2{
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(162, 254, 162);
+}
+#th3{
+    border: 1px solid black;
+    width: 10%;
+    background-color: rgb(216, 216, 216);
+}
+#th4{
+    border: 1px solid black;
+    width: 10%;
+    background-color: rgb(133, 206, 255);
+}
+#th5{
+    border: 1px solid black;
+    width: 50%;
+    background-color: rgb(133, 206, 255);
+}
+.labelBox{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputBox{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 5%;
+    border-radius: 5px;
+    border: inset 2px rgb(112, 112, 112);
+}
+.resultBox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.resultLabel{
+    color: rgb(231, 2, 2);
+    background-color: rgb(226, 226, 226);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: inset 2px rgb(112, 112, 112);
+}
+
+#table1{
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.fontCentralBold{
+    font-weight: bold;
+    width: 100%;
+}
+
+.indexGridContainer{
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0.5rem 0.5rem 0.5rem 0.3rem;
+    gap: 0.5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "notice"
+        "announce1"
+        "announce2"
+        "YTVideo";
+}
+.notice{
+    grid-area: notice;
+    padding: 0.5rem;
+    margin: 0;
+    width: 100vw;
+    color: rgb(12, 142, 1);
+}
+.announce1{
+    grid-area: announce1;
+    padding: 0.5rem;
+    margin: 0;
+    width: 100vw;
+    color: rgb(199, 25, 25);
+}
+.announce2{
+    grid-area: announce2;
+    margin: 0;
+    padding: 0.5rem;
+    width: 100vw;
+    color: rgb(199, 25, 25);
+}
+.YTVideo{
+    grid-area: YTVideo;
+    display: block;
+    margin: auto;
+    min-width: 90vw;
+    min-height: 50.625vw;
+}
+
+.gridContainer1 {
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    text-align: center;
+}
+
+.gridContainer2 {
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    text-align: center;
+}
+
+.gridContainer3{
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "area1 area2"
+    "area3 area3";
+    justify-items: center;
+}
+.area1{
+    grid-area: area1;
+}
+.area2{
+    grid-area: area2;
+}
+.area3{
+    grid-area: area3;
+}

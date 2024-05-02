@@ -16,3 +16,15 @@
     background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 2px 2px 0px 1px rgba(152, 152, 152, 0.795);
 }
+
+.glassBlockDescription{
+    margin: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: solid 4px rgb(191, 234, 229);
+    border-right: solid 4px rgb(191, 234, 229);
+    border-top: solid 2px rgb(191, 234, 229);
+    border-left: solid 2px rgb(191, 234, 229);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 0px 1px rgba(152, 152, 152, 0.795);
+}
